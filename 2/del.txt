@@ -1,0 +1,2593 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>РВС Векселя</title>
+        <meta name="robots" content="all">
+        <meta name="Author" content="Мегасофт">
+        <meta name="Subject" content="вексельные индексы вексельная программа">
+        <meta name="Keywords" content="вексель векселя долги зачеты тарифы облигации газпром газпромбанк сбербанк собин альфа эко финансовый рынок внебиржевой биржевой фондовый рынок инструмент обзоры рынка
+вексельные индексы вексельная программа вексельное право инвестиционная компания банк трейдер брокер терминал акция акции деньги вексельный бланк двойное складское свидетельство двойные складские свидетельства
+складская расписка закладная залог варрант ставки РЕПО МБК кредит доходность процент депозитарий учет закон котировка торговля биржа торги куплю продам" >
+        <meta name="Description" content="">        
+        <meta name="document-state" content="">
+        <meta name="revisit" content="">
+        <meta name="Pragma" content="no-cache">
+        <meta http-equiv="Last-Modified" content="Wed, 25 Oct 2023 15:44:25 GMT">    
+		<meta name="yandex-verification" content="d73d79cd78f0e60f" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.pdo.ru/css/bootstrap.min.css?c=1" rel="stylesheet">
+    <link href="https://cdn.pdo.ru/css/bootstrap-theme.min.css?c=1" rel="stylesheet">
+    <link href="https://cdn.pdo.ru/css/common.css?c=1" rel="stylesheet">
+    <!-- Own core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?c=1">
+    <link rel="stylesheet" href="https://cdn.pdo.ru/css/jquery-ui.css?c=1">  
+    <!-- Bootstrap core JavaScript  -->
+    <script src="https://cdn.pdo.ru/js/jquery.min.js?c=1"></script>
+	<link href="https://cdn.pdo.ru/css/style.css?c=1" rel="stylesheet">
+    	
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+                <link href="https://bizon.ru//externals/font-awesome/css/font-awesome.min.css?c=14254" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://bizon.ru/application/css.php?scheme=bills&amp;request=application/themes/clean/theme.css&amp;c=14254" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://bizon.ru/externals/calendar/styles.css?c=14254" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://bizon.ru/externals/fancyupload/fancyupload.css?c=14254" media="screen" rel="stylesheet" type="text/css" />
+<link href="https://bizon.ru/externals/datetimepicker/jquery.datetimepicker.css?c=14254" media="screen" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="/css/bizon.css">                <link rel="image_src"       href="/images/common/bills70.jpg"/>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+         <script type="text/javascript" src="https://banner.zol.ru/misc/swiffy/runtime.js"><!--
+        //-->
+        </script>
+                                 <script type="text/javascript">
+                    jQuery.noConflict();
+                </script>
+                <script type="text/javascript" src="https://bizon.ru/application/js.php?script=lib"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    if (typeof jQuery != "undefined"){
+        jQuery.noConflict();
+    }
+    Date.setServerOffset('Wed, 25 Oct 2023 18:49:25 +0300');
+
+    en4.orientation = 'ltr';
+    en4.core.environment = 'production';
+    en4.core.language.setLocale('ru');
+   en4.core.setBaseUrl('https://bizon.ru/');
+    en4.core.staticBaseUrl = 'https://bizon.ru/';
+    en4.core.domain        = 'bizon.ru';
+    en4.core.loader = new Element('img', {src: en4.core.staticBaseUrl + 'application/modules/Core/externals/images/loading.gif'});
+    en4.core.scheme = 'bills';
+    en4.core.crossdomainallow = ['www.bills.ru','bills.ru','bills.alex.rvs','bills.urpina.rvs','bizon.ru','[a-zA-Z0-9\-_]+.bizon.ru'];
+    en4.core.privateZoneItem = null;
+     
+          en4.core.subject = {
+        type : 'group',
+        id : 6397,
+        guid : 'group_6397',
+        title: "\u0420\u0412\u0421 \u0412\u0435\u043a\u0441\u0435\u043b\u044f",
+                parent_group_id: '0'
+              };
+                en4.core.auth_token = '';
+         
+    
+    if( false ) {
+      en4.core.dloader.attach();
+    }
+    
+        en4.core.runonce.add(function() {
+        __bizon_extend_ajax_functions();
+    });
+        //]]>
+</script>
+<script type="text/javascript">
+    //<![CDATA[
+en4.core.language.addData({"Select a date":"\u0412\u044b\u0431\u0440\u0430\u0442\u044c \u0434\u0430\u0442\u0443","The event's start time may not exceend the time of it's expiration!":"\u0412\u0440\u0435\u043c\u044f \u043d\u0430\u0447\u0430\u043b\u0430 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0435\u0433\u043e \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f!","The event's start date may not exceend the date of it's expiration!":"\u0414\u0430\u0442\u0430 \u043d\u0430\u0447\u0430\u043b\u0430 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u0434\u0430\u0442\u044b \u0435\u0433\u043e \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f!","Unlike":"\u041c\u043d\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f","unlike":"\u043c\u043d\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f","Like":"\u041c\u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f","Loading...":"\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430...","None other actions":"\u041d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b \u0434\u0440\u0443\u0433\u0438\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f..","You are not allowed to comment this news":"\u0423 \u0432\u0430\u0441 \u043d\u0435\u0442 \u043f\u0440\u0430\u0432\u0430 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u044d\u0442\u0443 \u043d\u043e\u0432\u043e\u0441\u0442\u044c.","now":"\u0441\u0435\u0439\u0447\u0430\u0441","in a few seconds":"\u0447\u0435\u0440\u0435\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0435\u043a\u0443\u043d\u0434","a few seconds ago":"\u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u0435\u043a\u0443\u043d\u0434 \u043d\u0430\u0437\u0430\u0434","%s minute ago":["%s \u043c\u0438\u043d\u0443\u0442\u0443 \u043d\u0430\u0437\u0430\u0434","%s \u043c\u0438\u043d\u0443\u0442\u044b \u043d\u0430\u0437\u0430\u0434","%s \u043c\u0438\u043d\u0443\u0442 \u043d\u0430\u0437\u0430\u0434"],"in %s minute":["\u0432 %s \u043c\u0438\u043d\u0443\u0442","\u0432 %s \u043c\u0438\u043d\u0443\u0442\u0443","\u0432 %s \u043c\u0438\u043d\u0443\u0442"],"%s hour ago":["%s \u0447\u0430\u0441 \u043d\u0430\u0437\u0430\u0434","%s \u0447\u0430\u0441\u0430 \u043d\u0430\u0437\u0430\u0434","%s \u0447\u0430\u0441\u043e\u0432 \u043d\u0430\u0437\u0430\u0434"],"in %s hour":["\u0432 %s \u0447\u0430\u0441",""],"%s at %s":"%s \u0432 %s","%s ratings":"\u043e\u0446\u0435\u043d\u043e\u043a: %s","in few seconds":"\u0442\u043e\u043b\u044c\u043a\u043e \u0447\u0442\u043e","%s document":["%s \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442","%s \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430","%s \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432"],"%s documents":"\u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432: %s","Are you sure you want to delete this?":"\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u044d\u0442\u043e \u0443\u0434\u0430\u043b\u0438\u0442\u044c?","Comment":"\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439","Delete":"\u0423\u0434\u0430\u043b\u0438\u0442\u044c","or":"","cancel":"\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435","Monday":"\u041f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a","Tuesday":"\u0412\u0442\u043e\u0440\u043d\u0438\u043a","Wednesday":"\u0421\u0440\u0435\u0434\u0430","Thursday":"\u0427\u0435\u0442\u0432\u0435\u0440\u0433","Friday":"\u041f\u044f\u0442\u043d\u0438\u0446\u0430","Saturday":"\u0421\u0443\u0431\u0431\u043e\u0442\u0430","Sunday":"\u0412\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435","January":"\u042f\u043d\u0432\u0430\u0440\u044c","February":"\u0424\u0435\u0432\u0440\u0430\u043b\u044c","March":"\u041c\u0430\u0440\u0442","April":"\u0410\u043f\u0440\u0435\u043b\u044c","May":"\u041c\u0430\u0439","June":"\u0418\u044e\u043d\u044c","July":"\u0418\u044e\u043b\u044c","August":"\u0410\u0432\u0433\u0443\u0441\u0442","September":"\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c","October":"\u041e\u043a\u0442\u044f\u0431\u0440\u044c","November":"\u041d\u043e\u044f\u0431\u0440\u044c","December":"\u0414\u0435\u043a\u0430\u0431\u0440\u044c","You have ignored the invite to the event %s":"\u0412\u044b \u043e\u0442\u043a\u0430\u0437\u0430\u043b\u0438\u0441\u044c \u0443\u0447\u0430\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0432 \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0438 %s"});    //]]>
+</script>
+<script type="text/javascript" src="https://bizon.ru/application/js.php?script=bootstrap&amp;c=14254"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true&amp;key=AIzaSyBWopblJbNb7Q03gTl-TCDKHQunRuoIbj0&amp;c=14254"></script>
+<script type="text/javascript" src="https://bizon.ru/externals/tinymce/tinymce.min.js?nominify=1&amp;c=14254"></script>    </head>
+    <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(64461598, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/64461598" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+            <script src="https://cdn.pdo.ru/js/jquery.min.js?c=1"></script>
+            <script src="https://cdn.pdo.ru/js/jquery-ui.js?c=1"></script>
+            <script src="https://cdn.pdo.ru/js/bootstrap.min.js?c=1"></script>
+            <script src="https://cdn.pdo.ru/js/jquery.reject.js?c=1"></script>
+    
+<!-- common top menu -->
+<nav class="navbar navbar-inverse navbar-static-top bizon-navbar">
+    <div class="container bizon-container">
+        <div class="navbar-header">
+            <!--noindex--><a class="navbar-brand" href="https://bizon.ru/" rel="nofollow">
+                <img class="logo-img" height="21" src="https://cdn.pdo.ru/images/logo_mini.svg" alt="Logo" onerror="this.onerror=null; this.src='https://cdn.pdo.ru/images/logo_mini.png'">
+            </a><!--/noindex-->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Навигация</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle bold" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Войти</a>
+                        <ul class="dropdown-menu">
+                            <li class="sso_auth_login_form_container">
+                                <form id="sso_auth_ajax_" action="https://www.bills.ru/login" accept-charset="UTF-8" method="post">
+                                    <div class="form-group popup-login">
+                                        <div class="form-group">
+                                            <label for="Email">Логин</label>
+                                            <input class="form-control" name="login" id="Email" placeholder="Введите логин" value="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Password">Пароль</label>
+                                            <input class="form-control" name="password" id="Password" placeholder="Введите пароль" type="password">
+                                        </div>
+                                        <div class="form-group popup-login-submit">
+                                            <button type="button" id='login-btn' class="btn btn-primary">Войти</button>
+                                        </div>
+                                        <!--noindex--><a rel="nofollow" href="https://reg.bizon.ru/local/recovery?source=pdo&amp;backto=https://www.bills.ru">Забыли пароль?</a><!--/noindex--><br>
+                                        <!--noindex--><a rel="nofollow" href="https://reg.bizon.ru/local/reg?backurl=https://www.bills.ru/&amp;source=pdo">Зарегистрироваться</a><!--/noindex-->
+                                    </div>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!--noindex--><a rel="nofollow" href="https://reg.bizon.ru/local/reg?backurl=https://www.bills.ru/&amp;source=pdo" id="register" target="_blank">Зарегистрироваться</a><!--/noindex-->
+                    </li>
+                                                                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >
+                                Объявления
+                                <span class="caret"></span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.bills.ru/favorites">Избранные объявления</a><li>
+                                <li><a href="https://www.bills.ru/?module=add" id="favorites">Добавить объявление</a><li>
+                            </ul>
+                        </li>
+                        
+                        
+                        </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<input type="hidden" name="http_referer"  value="www.bills.ru">
+
+<script>
+    jQuery("#sso_auth_ajax_").keypress(function(e) {
+        if ( e.which == 10 || e.which == 13 ) {
+            ssoLogin();
+        }
+    });
+
+    jQuery("#login-btn").click(function () {
+        ssoLogin();
+    });
+
+    function ssoLogin()
+    {
+        urls = "https://reg.bizon.ru/remote/auth?http_referer=" + 'www.bills.ru' + "" + "&callback=?";
+        $.ajax({
+            dataType: "text",
+            url: urls,
+            data: jQuery("#sso_auth_ajax_").serialize(),
+            success: function (data) {
+                eval(data);
+                if (data.indexOf("document.location.href") !== 0 &&
+                    typeof $("#sso_rendered .error h3") !== "undefined") {
+                    alert("Ошибка входа: Неправильный пароль");
+                }
+            }
+        });
+        return false;
+   }
+</script>
+<div id="auto-login" style="display:none">
+    <div id="sso_render_to" ></div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    url = 'https://reg.bizon.ru/remote/auth?callback=?&http_referer='+"www.bills.ru"+'&nologin=0&html=1';
+    jQuery.getJSON(url,function(json){
+	consle.log(json);
+    });
+});</script>
+    <div class="container bizon-container">
+    <script type="text/javascript" src="/javascripts/vote.js"><!--
+    //-->
+    </script>
+    <script type="text/javascript" src="/javascripts/script.js"><!--
+    //-->
+    </script>
+    
+    <table cellpadding="0" cellspacing="0" style="width:749px;">
+	<tr>
+		<td colspan="4">
+		<!--Тор-баннер 749х85 -->
+					<script language='JavaScript' type='text/javascript' src='https://banner.zol.ru/adx.js'></script>
+					<script language='JavaScript' type='text/javascript'>
+					<!--
+					   if (!document.phpAds_used) document.phpAds_used = ',';
+					   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+					   
+					   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+					   document.write ("https://banner.zol.ru/adjs.php?n=" + phpAds_random);
+					   document.write ("&amp;what=zone:342");
+					   document.write ("&amp;exclude=" + document.phpAds_used);
+					   if (document.referrer)
+					      document.write ("&amp;referer=" + escape(document.referrer));
+					   document.write ("'><" + "/script>");
+					//-->
+					</script><noscript><a href='https://banner.zol.ru/adclick.php?n=a63df168' target='_blank'>
+					<img src='https://banner.zol.ru/adview.php?what=zone:342&amp;n=a63df168' border='0' alt=''></a></noscript>
+		</td>
+	</tr>
+	<tr>
+		<td style="width:172px;">
+			<div style="font-size:0px;padding-left:1px;">
+				
+				<a href="/"><img src="/images/common/logotypetop.gif" alt="" style="margin:0px; padding:0px;border:0px;"></a>
+				
+			</div>
+		</td>
+		<td style="color:white; width:3px; background-image:url('/images/common/point2.gif');" valign="top">.</td>
+		<td width="510" style="text-align: center;">
+						<!--баннер 468х60-->
+					<script language='JavaScript' type='text/javascript' src='https://banner.zol.ru/adx.js'></script>
+					<script language='JavaScript' type='text/javascript'>
+					<!--
+					   if (!document.phpAds_used) document.phpAds_used = ',';
+					   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+					   
+					   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+					   document.write ("https://banner.zol.ru/adjs.php?n=" + phpAds_random);
+					   document.write ("&amp;what=zone:340");
+					   document.write ("&amp;exclude=" + document.phpAds_used);
+					   if (document.referrer)
+					      document.write ("&amp;referer=" + escape(document.referrer));
+					   document.write ("'><" + "/script>");
+					//-->
+					</script><noscript><a href='https://banner.zol.ru/adclick.php?n=a63df168' target='_blank'>
+					<img src='https://banner.zol.ru/adview.php?what=zone:340&amp;n=a63df168' border='0' alt=''></a></noscript>
+		</td>
+		<td style="text-align: right;vertical-align:bottom;" align="right">
+			<table>
+				<tr>
+					<td style="vertical-align:bottom;" align="right">
+					
+
+					</td>
+				</tr>
+				<tr>
+					<td class="menu_r" align="right" valign="bottom">
+					<a href="https://www.rvs.ru">
+					<img src="/images/common/rvs.gif"alt="" style="margin:0px; padding:0px;border:0px;">
+					</a>
+					<div id='time' style="margin-top:-20px;">&nbsp;&nbsp;</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>    <table cellpadding="0" cellspacing="0" style="width:755px; border:0px;">
+        <tr>
+            <td style="width:52px;background-color:#bcbcbc;" valign="top">
+            <table cellpadding="0" cellspacing="0" style="width:52px; background-color: white; margin-top:0px; padding:0px; border:0px;">
+	<tr style="height:3px;">
+		<td style="background-color:#bcbcbc; font-size:0px; width:51px; height:3px; line-height: 3px;" valign="top">
+			<img src="/images/common/logotypemiddle.gif" alt="" style="border:0px;">
+		</td>
+	</tr>
+	<tr>
+		<td style="background-color:#bcbcbc; width:51px; height:108px; text-align:left; vertical-align:top;" valign="top">
+			<img src="/images/common/logotypebottom.gif" style="border:0px;" alt="" >
+		</td>
+		
+	</tr>
+	<tr>
+		<td style="background-color:#bcbcbc;  width:51px;height:80px; vertical-align:top;" valign="top">
+			<img src="/images/common/market.gif" border="0" alt="">
+		</td>
+		
+	</tr>
+	<tr>
+		<td style="background-color:#bcbcbc;width:51px;height:60px; vertical-align:top;" valign="top">
+			<img src="/images/common/treider.gif" alt="" style="border:0px;">
+		</td>
+		
+	</tr>
+	<tr>
+		<td style="background-color:#bcbcbc; padding-top:10px; width:51px; vertical-align:top;" valign="top">
+			<img src="/images/common/onsite.gif" alt="" style="border:0px;">
+		</td>
+		
+	</tr>
+	<tr>
+		<td style="background-color:#bcbcbc;"></td>
+		
+	</tr>
+</table>            </td>
+            <td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+            <td style="width:116px;" valign="top">
+            <table cellpadding="0" cellspacing="0">
+	<tr>
+	<td  style="color:white; height:3px;font-size:0px;padding:0px; background-image:url('/images/common/point2.gif');">.</td>
+	</tr>
+	<tr>
+		<td style="background-color: white; vertical-align:top;">
+							<a class="menu" href="/about/" onclick="">о системе</a><br>
+							<a class="menu" href="/news/com/" onclick="">новости системы</a><br>
+							<a class="menu" href="/members/" onclick="">участники системы</a><br>
+							<a class="menu" href="/installation/" onclick="">установка терминала</a><br>
+							<a class="menu" href="/tariffs/" onclick="">подключение</a><br>
+							<a class="menu" href="/faq/" onclick="">вопросы и ответы</a><br>
+							<a class="menu" href="/support/" onclick="">техподдержка</a><br>
+				
+		</td>
+	</tr>
+	<tr>		
+		<td style="padding-top:15px; vertical-align:top;">
+							<a class="menu" href="/archives/" onclick="">котировки</a><br>
+							<a class="menu" href="/quotes/" onclick="">графики</a><br>
+							<a class="menu" href="/events/" onclick="">мероприятия</a><br>
+							<a class="menu" href="/docs/" onclick="">законодательство</a><br>
+							<a class="menu" href="/memorandum/" onclick="">инв. меморандумы</a><br>
+				
+		</td>
+	</tr>
+	<tr>
+		<td style="padding-top:15px;vertical-align:top;">
+								<a class="menu" href="/market/" onclick="">конъюнктура рынка</a><br>
+								<a class="menu" href="/vote/" onclick="">голосование</a><br>
+								<a class="menu" href="/photo/" onclick="">фотоальбом</a><br>
+								<a class="menu" href="/calendar?num=1&days=&cost=&yield=&schem=&v=" onclick="">калькулятор</a><br>
+				
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" style="padding-top:15px;">
+							<a class="menu" href="/advertisement/">реклама</a><br>
+							<a class="menu" href="/contacts/">контакты</a><br>
+				
+		</td>
+	</tr>
+	<tr>
+		<td style="padding-top:150px;vertical-align:middle;">
+			<!--все, что ниже основного меню-->
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="text-align:center;">
+					
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center; vertical-align:middle;">
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center; vertical-align:middle;">
+					</td>
+				</tr>
+			</table>	
+		</td>
+	</tr>	
+</table>            </td>
+            <td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+            <td style="width:575px; vertical-align:top;">
+                <table cellpadding="0" cellspacing="0" style="width:575px; border:0px;">
+                    <tr>
+                        <td style="background-color:white; font-size:0px; background-image:url('/images/common/point2.gif'); height:3px;">.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.view_more_link').click();
+    });
+</script>    
+<table cellspacing="0" cellpadding="0" style="width:575px;">
+	<tbody><tr>
+		<td valign="top" align="center" style="background-color: #bcbcbc;font-family:Arial,Helvetica, Sans-serif;font-size: 12px;font-weight:bold;">
+			события рынка векселей		</td>
+	</tr>	
+</tbody></table>
+
+<div class="generic_layout_container layout_megasoftnews_news_feed"><script>  </script>
+<script type="text/javascript" src ="https://bizon.ru/externals/datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+<script type="text/javascript" src ="https://bizon.ru/externals/calendar/calendar.js"></script>
+<link type="text/css" src ="https://bizon.ru/externals/datetimepicker/jquery.datetimepicker.css">
+
+<style>
+    body {
+                    }
+
+    .news-post-container {
+        margin-top: 30px;
+    }
+</style>
+
+<script>
+    function sendWidgetHeight()
+    {
+        var widget_body = document.getElementById('global_page_core-widget-index');
+        var body_height = widget_body.clientHeight;
+        var data = {widget_height: body_height};
+        window.parent.postMessage(data, '');
+    }
+</script>
+
+<script type="text/javascript">
+    if (typeof news_widget_identity == 'undefined'){
+        var news_widget_identity = '';
+    }
+    var newsAddingShowProcessing = function(){
+        jQuery(".global_form_add").css("display","none");
+        jQuery(".global_form_popup").css("display","none");
+        
+        jQuery('<div class="news_ajax_informer" style="text-align: center;"><img src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" alt="Загрузка"></div>').insertBefore('#news-feed');
+    };
+        var newsfeedfeed_subject_url = "https://bizon.ru/bills";
+    var newsfeedfeed_used_scheme = "bills";
+    
+    var is_newsfeed_user_self = 0;
+    if (newsfeedfeed_subject_url + '/news' == document.location.pathname  && is_newsfeed_user_self ){
+        window.history.replaceState({}, window.document.title, newsfeedfeed_subject_url + '/news/all');
+    }
+    en4.core.runonce.add(function() {
+        en4.activity.updater.setupNewsUpdater({
+            subject: 'company_6397',
+            catchUnobservedNewsTime: 1698248965,
+            url: 'widget/index/content_id/'+news_widget_identity+'/name/news.feed/mod/megasoftnews'
+        });
+                    en4.activity.updater.setupNewsUpdater({hash: '0'});
+            });
+
+    en4.core.runonce.add(function() {
+        initjQueryDatePicker();
+        var news_count = 15;
+        var next_id = 656035;
+        var page = parseInt("0");
+        var newsType = 'my';
+        var subGroupsNews = 'bySetting';
+        var subject_guid = 'company_6397';
+        var endOfFeed = false;
+
+        var newsViewMore = window.newsViewMore = function(subject_guid, resetPage = false, materialType = false)
+        {
+            if ( en4.core.request.isRequestActive() ) return;
+
+            if ( news_widget_identity.length ) {
+                var url = '/widget/index/content_id/'+news_widget_identity+'/name/news.feed/mod/megasoftnews';
+            } else {
+                var url = '/widget/index/name/megasoftnews.news-feed';
+            }
+
+            jQuery('#news_feed_viewmore').hide();
+            jQuery('#news_feed_loading').show();
+
+            if ( resetPage ) {
+                page = 0;
+            } else {
+                page++;
+            }
+
+            var request_data = {
+                url : url,
+                data : {
+                    'format' : 'html',
+                    'page' : page,
+                    'feedOnly' : true,
+                    'newsType' : newsType,
+                    'material-type' : materialType ? materialType : (mType ? mType : ''),
+                    'subGroupsNews': subGroupsNews,
+                    'newsConcreteCats' : 0,
+                    'nolayout' : true,
+                    'target_origin' : ''
+                },
+                onSuccess: function(responseTree, responseElements, responseHTML, responseJavaScript)
+                {
+                    var oldfeed = jQuery('#news-feed');
+                    /* var uls = Elements.from(responseHTML).filter('ul');
+
+                    if ( uls.length ) {
+                        uls[0].getChildren().inject(oldfeed);
+                    } */
+
+                    var news_items = jQuery(responseHTML).filter('ul#news-feed').find('li.news_item');
+                    oldfeed.append(news_items);
+
+                    var scripts = oldfeed.find('script.executeAlsoAfterUpdate');
+                    scripts.each(function () {
+                        eval(jQuery(this).text());
+                        en4.core.runonce.trigger();
+                    });
+
+                    eval(responseJavaScript);
+                    en4.core.runonce.trigger();
+
+                    jQuery('#news_feed_loading').hide();
+                    if ( !endOfFeed ) {
+                        jQuery('#news_feed_viewmore').show();
+                    }
+
+                    //en4.core.runonce.trigger();
+                    Smoothbox.bind($('news-feed'));
+                                    }
+            };
+
+            if ( subject_guid.length ) {
+                request_data.data.subject = subject_guid;
+            }
+
+            var request = new Request.HTML(request_data);
+            request.send();
+        };
+
+        if ( next_id > 0 && !endOfFeed ) {
+            /* $('news_feed_viewmore').style.display = '';
+            $('news_feed_loading').style.display = 'none';
+            $('news_feed_viewmore_link').removeEvents('click').addEvent('click', function (event) {
+                event.stop();
+                newsViewMore(next_date, subject_guid);
+            }); */
+            jQuery('#news_feed_viewmore').show();
+            jQuery('#news_feed_loading').hide();
+            jQuery('#news_feed_viewmore_link').click(function () {
+                newsViewMore(subject_guid);
+            });
+        } else {
+            /* $('news_feed_viewmore').style.display = 'none';
+            $('news_feed_loading').style.display = 'none'; */
+            jQuery('#news_feed_viewmore').hide();
+            jQuery('#news_feed_loading').hide();
+        }
+        
+         window.newsfeedSwitch = function(jqel, news_type_to, tabshortname, news_type = false)
+         {
+             if ( tabshortname == undefined ) {
+                 tabshortname = false;
+             }
+             nType = newsType = news_type_to;
+             tName = tabshortname;
+             mType = news_type;
+             en4.activity.updater.setupNewsUpdater({hash: ''});//disable auto updating feed while feed loading
+             if ( news_type ) {
+                 jQuery('#megasoftnews-form-post').find('#news_type-' + news_type).prop('checked', true);
+             }
+             newsViewMore(subject_guid, true, news_type);
+             jQuery('.layout_megasoftnews_news_feed .tip').hide();
+             jqel.closest('.megatabs').find('li').removeClass('_active');
+             jqel.parent().addClass('_active');
+             jQuery('#news-feed').html('');
+             if ( !tabshortname && news_type_to!='my' ) {
+                 tabshortname = "newsType/"+news_type_to;
+             }
+             var right_url;
+             var default_news_type_tab_name = 'news/my';
+             if ( tabshortname && tabshortname!=default_news_type_tab_name ) {
+                 right_url = newsfeedfeed_subject_url + '/' + tabshortname;
+             } else {
+                 right_url = newsfeedfeed_subject_url + '/news';
+             }
+             if ( news_type ) {
+                 right_url = right_url + '/material-type/' + news_type;
+             }
+             var url_mustreplace_condition = window.location.href.indexOf(right_url)==-1 || window.location.href.indexOf(newsfeedfeed_subject_url)+newsfeedfeed_subject_url.length!=window.location.href.length;
+             if ( url_mustreplace_condition && !newsfeedfeed_used_scheme && typeof window.history.pushState == 'function' ) {
+                 window.history.pushState({}, window.document.title, right_url);
+             }
+         };
+
+         
+         var options = {
+             target:       '#feed-news-loop2',   // target element(s) to be updated with server response
+             beforeSubmit: showRequest  // pre-submit callback
+         };
+
+         if ( jQuery('#megasoftnews-form-post').length ) {
+             jQuery('#megasoftnews-form-post').ajaxForm(options);
+             jQuery(".news-post-container #submit").die('click').live('click',function(){
+                 jQuery("#body_ajax").val(tinyMCE.get("body").getContent());
+             });
+         }
+
+        // pre-submit callback
+        function showRequest(formData, jqForm, options) {
+            return true;
+        }
+
+        // post-submit callback
+        function showResponse(responseText, statusText, xhr, $form)  {
+
+        }
+
+    });
+</script>
+
+<div id="feed-news-loop2" style="display:none;"></div>
+
+
+<script>
+    nType = 'my';
+    mType = false;
+    tName = 'news/my';
+</script>
+
+<div class="megatabs">
+    <ul class="navigation">
+        <li class="_active">
+            <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), nType, tName, false);">Все материалы</a>
+        </li>
+        <li >
+            <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), nType, tName, 'news');">Новости</a>
+        </li>
+        <li >
+            <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), nType, tName, 'press');">Пресс-релизы</a>
+        </li>
+        <li >
+            <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), nType, tName, 'article');">Статьи</a>
+        </li>
+    </ul>
+</div><br />
+
+    <div id="news_swapper" class="megatabs">
+        <ul class="navigation">
+                                <li >
+                <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), 'myandfriends', 'news/all', mType);">Все</a>
+            </li>
+                                <li class="_active">
+                <a href="javascript:void(0);" onclick="newsfeedSwitch(jQuery(this), 'my', 'news/my', mType);">РВС Векселя</a>
+            </li>
+                </ul>
+    </div>
+
+<script>
+    function setCurrentDate() {
+        var date = new Date();
+        initjQueryDatePicker(date, true);
+    }
+</script>
+
+<style>
+    .clear {
+        clear: both;
+    }
+    .news_search_form {
+        display: inline-block;
+        width: 80%;
+    }
+    .news_search_form input[name="search"] {
+        width: 80%;
+        height: 18px;
+        padding: 5px;
+        box-sizing: content-box;
+    }
+    .news_search_form button[type="submit"] {
+        font-size: 12px;
+    }
+    .news_styles_buttons {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 18px;
+        color: #57658A;
+        text-align: right;
+    }
+    .news_styles_buttons a {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        box-sizing: content-box;
+        margin-left: 2px;
+        padding: 5px 10px 2px 5px;
+        text-decoration: none;
+        border: 1px solid #bbbfd1;
+    }
+    .news_styles_buttons a:hover {
+        text-decoration: none;
+    }
+    .news_styles_buttons a.news-list-type-active {
+        background-color: #f0f1f5;
+    }
+    .news_styles_buttons a span {
+        display: block;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+    }
+
+    </style>
+
+<script>
+    function switchNewsListType(listType = 0) {
+        document.cookie = "news-list-type=" + listType;
+        location.reload();
+    }
+</script>
+
+<br />
+<div class="news_search_form">
+    <form method="post">
+        <input type="text" name="search" placeholder="Введите текст для поиска" value="" />
+        <button type="submit">Поиск</button>
+    </form>
+</div>
+<div class="news_styles_buttons">
+    <a href="javascript:void(0);" onclick="switchNewsListType(1)" class=""><span class="fa fa-bars"></span></a>
+    <a href="javascript:void(0);" onclick="switchNewsListType(0)" class="news-list-type-active"><span class="fa fa-minus-square"></span></a>
+</div><div class="clear"></div>
+<!-- can add material: false -->
+
+
+<div class="news-post-container">
+    <!-- can add material: false -->
+    </div>
+
+
+
+<div id="feed-update"></div>
+
+<div id="feed-news-loop">
+    
+<ul class='news_feed' id="news-feed">
+                <li id="news-item-656807" class="news_item news_item_standart" data-news-feed-item="656807">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="25.10.2023 13:06:16" datetitle="Wed, 25 Oct 2023 13:06:16 +0300" megasoft-timestamp="1698228376" class="timestamp">25.10.2023 13:06</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="25.10.2023 14:00:00" datetitle="Wed, 25 Oct 2023 14:00:00 +0300" megasoft-timestamp="1698231600" class="timestamp">25.10.2023 14:00</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656807" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656807" title="В Центробанке рассказали о выявленных фальшивых деньгах" target="_blank">В Центробанке рассказали о выявленных фальшивых деньгах</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Банк России в третьем квартале этого года выявил поддельных рублей на треть, на 31,2%, меньше, чем за такой же период год назад. Об этом сообщается на сайте ЦБ. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Банк России в третьем квартале этого года выявил поддельных рублей на треть, на 31,2%, меньше, чем за такой же период год назад. Об этом сообщается на сайте ЦБ. </p> <p> Всего за 3 квартал выявили 3 106 поддельных купюр, уточняют в пресс-службе ведомства. Годом ранее в 3 квартале их было 4 515. </p> <p> Чаще всего злоумышленники подделывают пятитысячные купюры. Их в отчетном периоде выявили 2 284 штуки. Среди двухтысячных купюр подделок обнаружили 140 штук, среди тысячных - 570. </p> <p> Впрочем, не гнушаются мошенники и мелкими купюрами и монетами. Так, регулятор выявил одну фальшивую десятирублевую купюру, 45 десятирублевых монет и 21 пятирублевую монету. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656807' style="display:inline-block;">
+
+                    <ul id ="item_actions_megasoftnews_news_656807" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656807" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656807,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656807" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656807").style.display = ""; document.getElementById("megasoftnews-comment-submit-656807").style.display = "block"; document.getElementById("megasoftnews-comment-body-656807").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656807" class="item_main_action item_main_action_repost">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656807/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656807" class="item_main_action item_main_action_share">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656807/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656807" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656807');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656807" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656807" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656807" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656807" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656807" id="megasoftnews-comment-id-656807" />
+
+<input type="hidden" name="return_url" value="/widget/index/content_id/3760/name/news.feed/mod/megasoftnews" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698231600,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656807, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656805" class="news_item news_item_standart" data-news-feed-item="656805">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="25.10.2023 13:01:22" datetitle="Wed, 25 Oct 2023 13:01:22 +0300" megasoft-timestamp="1698228082" class="timestamp">25.10.2023 13:01</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="25.10.2023 13:02:00" datetitle="Wed, 25 Oct 2023 13:02:00 +0300" megasoft-timestamp="1698228120" class="timestamp">25.10.2023 13:02</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656805" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656805" title="Курс доллара на Мосбирже опускался ниже 93 рублей" target="_blank">Курс доллара на Мосбирже опускался ниже 93 рублей</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Курс американской валюты на торгах на Московской бирже в среду опустился ниже 93 рублей. На 07:51 мск он составил 92,96 рубля, упав на 0,47%. Такое снижение произошло впервые с 12 сентября. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Курс американской валюты на торгах на Московской бирже в среду опустился ниже 93 рублей. На 07:51 мск он составил 92,96 рубля, упав на 0,47%. Такое снижение произошло впервые с 12 сентября. </p> <p> Правда, чуть позже цена слегка откатилась назад. Так, в 08:13 мск доллар стоил 93,02 рубля. Курс евро сегодня опускался до 98,78 рубля, а юань - до 12,696. </p> <p> Как ранее <!--noindex--><a href="javascript:void(0)" onclick="open_pr_link('https://rg.ru/2023/10/24/dollar-snizitsia-do-85-eksperty-rg-rasskazali-pochemu-rubl-vzial-kurs-na-ukreplenie.html')" target="_blank" rel="noopener noreferrer">писала</a><!--/noindex--> "РГ" , в последние дни рубль укрепляется в связи с возвратом к обязательной продаже валютной выручки для крупнейших экспортеров. Кроме того, играет роль ожидание роста ключевой ставки. Она может повыситься на 14-15%, считают эксперты. Таким образом, не исключено, что в обозримом будущем курс доллара снизится до 85-90 рублей. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656805' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656805" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656805" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656805,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656805" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656805").style.display = ""; document.getElementById("megasoftnews-comment-submit-656805").style.display = "block"; document.getElementById("megasoftnews-comment-body-656805").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656805" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656805/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656805" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656805/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656805" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656805');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656805" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656805" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews/news_id/656805/layout/json-simple/scheme/bonds" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656805" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656805" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656805" id="megasoftnews-comment-id-656805" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/news/view/news_id/656805/layout/json-simple/scheme/bonds" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698228120,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656805, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656806" class="news_item news_item_standart" data-news-feed-item="656806">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="25.10.2023 13:05:10" datetitle="Wed, 25 Oct 2023 13:05:10 +0300" megasoft-timestamp="1698228310" class="timestamp">25.10.2023 13:05</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="25.10.2023 13:00:00" datetitle="Wed, 25 Oct 2023 13:00:00 +0300" megasoft-timestamp="1698228000" class="timestamp">25.10.2023 13:00</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656806" class ="news_feed_content">
+                    <tr>
+                                                    <td rowspan="2" class="news_item_photo_cell">
+                            <a  href="https://www.bills.ru/news/?bid=656806" target="_blank"><img src="https://bizon.ru/public/news/pr/453528/img_thumb.icon_99b8561e979d537ef1d5fe6af2ffa098.png?c=eb9d" alt="" class="thumb.icon thumb_icon item_photo_megasoftnews_news  thumb_icon" /></a>                            </td>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656806" title="С 16 октября в обращении появились модернизированные купюры в 5000 рублей" target="_blank">С 16 октября в обращении появились модернизированные купюры в 5000 рублей</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Банк России с 16 октября вывел в оборот модернизированные купюры. </p> <p> Обновленная банкнота в 5000 рублей успешно поступила в обращение. Дизайн модернизированной банкноты в 1000 рублей, как сообщили в ЦБ, еще будет дорабатываться. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Банк России с 16 октября вывел в оборот модернизированные купюры. </p> <p> Обновленная банкнота в 5000 рублей успешно поступила в обращение. Дизайн модернизированной банкноты в 1000 рублей, как сообщили в ЦБ, еще будет дорабатываться. </p> <p> Это обновление привычных купюр образца 1997 года, принимать новые банкноты обязаны везде наравне со "старыми". </p> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656806' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656806" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656806" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656806,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656806" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656806").style.display = ""; document.getElementById("megasoftnews-comment-submit-656806").style.display = "block"; document.getElementById("megasoftnews-comment-body-656806").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656806" class="item_main_action item_main_action_repost">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656806/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656806" class="item_main_action item_main_action_share">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656806/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656806" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656806');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656806" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656806" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="/news/comment/module/megasoftnews/news_id/656806" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656806" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656806" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656806" id="megasoftnews-comment-id-656806" />
+
+<input type="hidden" name="return_url" value="/news/view/news_id/656806" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698228000,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656806, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656675" class="news_item news_item_standart" data-news-feed-item="656675">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:39:57" datetitle="Tue, 24 Oct 2023 15:39:57 +0300" megasoft-timestamp="1698151197" class="timestamp">24.10.2023 15:39</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:39:00" datetitle="Tue, 24 Oct 2023 15:39:00 +0300" megasoft-timestamp="1698151140" class="timestamp">24.10.2023 15:39</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656675" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656675" title="Должники смогут возобновлять исполнительные производства" target="_blank">Должники смогут возобновлять исполнительные производства</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p>Правительство России внесло в Госдуму <!--noindex--><a href="javascript:void(0)" onclick="open_pr_link('https://sozd.duma.gov.ru/bill/462778-8')" target="_blank" rel="noopener noreferrer">законопроект</a><!--/noindex-->, который позволит должникам просить судебных приставов о возобновлении дела. Как ни парадоксально, подобная мера позволит защитить самих должников. У людей, на которых висят старые долги, появится возможность&nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p>Правительство России внесло в Госдуму <!--noindex--><a href="javascript:void(0)" onclick="open_pr_link('https://sozd.duma.gov.ru/bill/462778-8')" target="_blank" rel="noopener noreferrer">законопроект</a><!--/noindex-->, который позволит должникам просить судебных приставов о возобновлении дела. Как ни парадоксально, подобная мера позволит защитить самих должников. У людей, на которых висят старые долги, появится возможность юридически разобраться с проблемами. Речь о ситуациях, когда исполнительное производство по каким-то причинам приостановлено, никаких действий по нему не ведется, но человек, естественно, все еще числится в должниках. </p><p> Председатель правления Ассоциации юристов России Владимир Груздев отметил, что подготовленный документ наделяет должника правом подачи заявления о возобновлении исполнительного производства. </p> <p> "Инициатива направлена на реализацию правовых позиций Конституционного суда России. Как правило, основания для приостановления исполнительного производства связаны с поведением должника. Вместе с тем некоторые основания для приостановления производства могут быть связаны с действиями взыскателя. Поэтому должник может быть в равной степени заинтересован в скорейшем возобновлении исполнительного производства и прекращении его обязательств перед взыскателем", - пояснил Владимир Груздев. </p> <p> При этом проектом устанавливается процессуальный срок, в течение которого после устранения обстоятельств, послуживших основанием для приостановления исполнительного производства, такое производство подлежит возобновлению, в том числе по заявлению должника. </p> <p> "Предлагаемый срок будет составлять три года. Определяются правовые последствия пропуска указанного срока. Рекомендуемые подходы полностью соответствуют позиции Конституционного суда России и укрепляют правовую защищенность граждан и организаций", - резюмировал Владимир Груздев. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656675' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656675" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656675" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656675,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656675" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656675").style.display = ""; document.getElementById("megasoftnews-comment-submit-656675").style.display = "block"; document.getElementById("megasoftnews-comment-body-656675").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656675" class="item_main_action item_main_action_repost">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656675/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656675" class="item_main_action item_main_action_share">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656675/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656675" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656675');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656675" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656675" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656675" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656675" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656675" id="megasoftnews-comment-id-656675" />
+
+<input type="hidden" name="return_url" value="/widget/index/content_id/3760/name/megasoftnews.news-feed/layout/disable/mod/user/subject/user_458277" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698151140,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656675, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656674" class="news_item news_item_standart" data-news-feed-item="656674">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:30:51" datetitle="Tue, 24 Oct 2023 15:30:51 +0300" megasoft-timestamp="1698150651" class="timestamp">24.10.2023 15:30</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:30:00" datetitle="Tue, 24 Oct 2023 15:30:00 +0300" megasoft-timestamp="1698150600" class="timestamp">24.10.2023 15:30</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656674" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656674" title="Биткоин обновил годовой максимум, превысив 35 тысяч долларов" target="_blank">Биткоин обновил годовой максимум, превысив 35 тысяч долларов</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Курс биткоина за сутки вырос более чем на 18%, превысив отметку в 35 тысяч долларов в паре к стейблкоину Tether USD, свидетельствуют данные биржи Binance. </p> <p> К 6:30 мск рост замедлился, монета торговалась по 34,6 тысячи долларов. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Курс биткоина за сутки вырос более чем на 18%, превысив отметку в 35 тысяч долларов в паре к стейблкоину Tether USD, свидетельствуют данные биржи Binance. </p> <p> К 6:30 мск рост замедлился, монета торговалась по 34,6 тысячи долларов. </p> <p> Криптовалюта дорожает после сообщений о победе Grayscale в апелляционном суде по делу о создании первого биржевого фонда (ETF) на биткоин. Ранее в создании фонда отказывала Комиссия по ценным бумагам и биржам США (SEC). </p> <p> Другие криптовалюты также растут в цене. Так, Ethereum подорожал до 1,8 тысячи долларов, BNB - до 233 долларов, Solana - до 31,7 доллара. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656674' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656674" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656674" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656674,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656674" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656674").style.display = ""; document.getElementById("megasoftnews-comment-submit-656674").style.display = "block"; document.getElementById("megasoftnews-comment-body-656674").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656674" class="item_main_action item_main_action_repost">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656674/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656674" class="item_main_action item_main_action_share">
+                    <a  href="/activity/index/share/type/megasoftnews_news/id/656674/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656674" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656674');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656674" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656674" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656674" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656674" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656674" id="megasoftnews-comment-id-656674" />
+
+<input type="hidden" name="return_url" value="/news/id/656674-bitkoin-obnovil-godovoj-maksimum-prevysiv-35-tysyach-dollarov" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698150600,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656674, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656672" class="news_item news_item_standart" data-news-feed-item="656672">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:29:31" datetitle="Tue, 24 Oct 2023 15:29:31 +0300" megasoft-timestamp="1698150571" class="timestamp">24.10.2023 15:29</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="24.10.2023 15:25:00" datetitle="Tue, 24 Oct 2023 15:25:00 +0300" megasoft-timestamp="1698150300" class="timestamp">24.10.2023 15:25</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656672" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656672" title="Госдума одобрила проект о защите должников от телефонного &quot;терроризма&quot; коллекторов" target="_blank">Госдума одобрила проект о защите должников от телефонного "терроризма" коллекторов</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Госдума одобрила в первом чтении законопроект, позволяющий Федеральной службе судебных приставов (ФССП) России запрашивать у операторов связи информацию для проверки сведений о нарушениях коллекторов при общении с должниками. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Госдума одобрила в первом чтении законопроект, позволяющий Федеральной службе судебных приставов (ФССП) России запрашивать у операторов связи информацию для проверки сведений о нарушениях коллекторов при общении с должниками. </p> <p> Законопроектом предлагается предоставить ФССП полномочия запрашивать подтверждение информации о нарушениях, допущенных при взыскании долга, у кредиторов, коллекторов и сотовых операторов. Инициатива также предусматривает истребование документов у бюро кредитных историй при отсутствии соответствующих сведений у источников формирования кредитной истории. В случае окончательного принятия документ вступит в силу 1 сентября 2024 года. </p> <p> Как отметил первый зампредкомитета Госдумы по финансовому рынку Константин Бахарев (ЕР), новый закон поможет защитить права и законные интересы граждан, имеющих долги перед финансовыми организациями. </p> <p> Он напомнил, что в июле этого года депутаты приняли закон, в котором установили государственный контроль в лице ФССП за деятельностью не только профессиональных коллекторских агентств, но и всех участников финансового рынка, осуществляющих деятельность по взысканию просроченной задолженности физических лиц. </p> <p> "Это важно потому, что таких участников финансового рынка на самом деле довольно большое число - это банки, микрофинансовые, страховые, лизинговые компании, - добавил депутат. - И по статистике на все эти структуры приходится примерно половина жалоб, с которыми обращаются граждане". </p> <p> Он привел статистику, согласно которой примерно 60% нарушений допускаются при взаимодействии с должниками посредством телефонной связи. "Это звонки в нерабочее время, в том числе по ночам, звонки родственникам, коллегам, - уточнил Бахарев. - При этом часто разглашается конфиденциальная информация из кредитной истории. Это абсолютно недопустимо". </p> <p> По его словам, реализация закона поможет эффективно защитить права граждан и искоренить практику телефонного "терроризма", когда неправомерными действиями с людей пытаются взыскать долги. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656672' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656672" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656672" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656672,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656672" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656672").style.display = ""; document.getElementById("megasoftnews-comment-submit-656672").style.display = "block"; document.getElementById("megasoftnews-comment-body-656672").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656672" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656672/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656672" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656672/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656672" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656672');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656672" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656672" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656672" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656672" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656672" id="megasoftnews-comment-id-656672" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698150300,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656672, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656513" class="news_item news_item_standart" data-news-feed-item="656513">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:23:45" datetitle="Mon, 23 Oct 2023 14:23:45 +0300" megasoft-timestamp="1698060225" class="timestamp">23.10.2023 14:23</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:35:00" datetitle="Mon, 23 Oct 2023 14:35:00 +0300" megasoft-timestamp="1698060900" class="timestamp">23.10.2023 14:35</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656513" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656513" title="В рекламе кредитов банки теперь должны указывать их полную стоимость" target="_blank">В рекламе кредитов банки теперь должны указывать их полную стоимость</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Банки теперь обязаны указывать полную стоимость кредитов в рекламе своих продуктов, а не только минимальные процентные ставки, которые часто устанавливаются не на весь срок предлагаемого займа. Закон об этом вступает в силу 23 октября. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Банки теперь обязаны указывать полную стоимость кредитов в рекламе своих продуктов, а не только минимальные процентные ставки, которые часто устанавливаются не на весь срок предлагаемого займа. Закон об этом вступает в силу 23 октября. </p> <p> Так, финансовые организации обязаны сообщить сразу, под какой процент годовых выдается кредит и все дополнительные условия, которые могут повлиять на сумму расходов заемщика. При этом в текстовых сообщениях полную информацию о стоимости кредита они должны отображать тем же шрифтом, что и наиболее привлекательные проценты. В звуковой рекламе также не должны одни параметры быть менее заметными, чем другие. </p> <p> Как поясняют в Федеральной антимонопольной службе, это поможет потребителю сразу оценить свою финансовую нагрузку, а также увидеть, какие дополнительные платные товары или услуги ему придется приобрести, чтобы получить займ по более выгодной ставке. </p> <p> Новое требование распространяется на все потребительские кредиты, в том числе ипотечные. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656513' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656513" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656513" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656513,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656513" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656513").style.display = ""; document.getElementById("megasoftnews-comment-submit-656513").style.display = "block"; document.getElementById("megasoftnews-comment-body-656513").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656513" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656513/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656513" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656513/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656513" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656513');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656513" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656513" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656513" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656513" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656513" id="megasoftnews-comment-id-656513" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698060900,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656513, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656516" class="news_item news_item_standart" data-news-feed-item="656516">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:27:50" datetitle="Mon, 23 Oct 2023 14:27:50 +0300" megasoft-timestamp="1698060470" class="timestamp">23.10.2023 14:27</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:30:00" datetitle="Mon, 23 Oct 2023 14:30:00 +0300" megasoft-timestamp="1698060600" class="timestamp">23.10.2023 14:30</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656516" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656516" title="Спрос на кредиты у бизнеса продолжил расти на фоне повышения ключевой ставки" target="_blank">Спрос на кредиты у бизнеса продолжил расти на фоне повышения ключевой ставки</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Сегодня спрос на кредитование бизнеса остается высоким и продолжает расти, несмотря на рост ключевой ставки Центрального банка, свидетельствуют данные индекса деловой активности малого и среднего предпринимательства RSBI. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Сегодня спрос на кредитование бизнеса остается высоким и продолжает расти, несмотря на рост ключевой ставки Центрального банка, свидетельствуют данные индекса деловой активности малого и среднего предпринимательства RSBI. </p> <p> "В начале осени мы отметили ускоренный подъем деловой активности, связанный прежде всего с повышением спроса на заемное финансирование в сегменте МСП и стремлением компаний к дальнейшему расширению. Это указывает на сохранение комфортных условий в кредитовании", - говорит вице-президент, замруководителя блока средний и малый бизнес Промсвязьбанка Кирилл Тихонов. </p> <p> Из индекса RSBI следует, что в сентябре заинтересованность в заемном финансировании отметили на четыре процентных пункта больше предпринимателей, чем месяцем ранее, их доля составила 38% и продемонстрировала восстановление до средних показателей за последние два года. При этом удовлетворенный спрос по кредитованию у опрошенных был на 5 процентных пункта больше, чем месяц назад, и достиг 29% за счет увеличения числа тех, кто уже имеет кредит. </p> <p> Отмечается, что в октябре бизнес, который планировал брать кредит, активизировался в ожидании очередного повышения ключевой ставки. </p> <p> Индекс RSBI - это ежемесячное исследование настроений малого и среднего бизнеса, которое проводится с 2020 года Промсвязьбанком совместно с Опорой России. В сентябрьском опросе приняли участие владельцы и топ-менеджеры 1781 компании сектора МСБ из всех регионов страны. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656516' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656516" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656516" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656516,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656516" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656516").style.display = ""; document.getElementById("megasoftnews-comment-submit-656516").style.display = "block"; document.getElementById("megasoftnews-comment-body-656516").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656516" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656516/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656516" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656516/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656516" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656516');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656516" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656516" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656516" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656516" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656516" id="megasoftnews-comment-id-656516" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698060600,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656516, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656512" class="news_item news_item_standart" data-news-feed-item="656512">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:21:35" datetitle="Mon, 23 Oct 2023 14:21:35 +0300" megasoft-timestamp="1698060095" class="timestamp">23.10.2023 14:21</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="23.10.2023 14:21:00" datetitle="Mon, 23 Oct 2023 14:21:00 +0300" megasoft-timestamp="1698060060" class="timestamp">23.10.2023 14:21</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656512" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656512" title="Приставы начали штрафовать банкиров за использование роботов-коллекторов при звонках должникам" target="_blank">Приставы начали штрафовать банкиров за использование роботов-коллекторов при звонках должникам</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Четырнадцатый арбитражный апелляционный суд признал законным решение службы судебных приставов о наказании банкиров, чьи роботы-коллекторы слишком назойливо звонили должнику. Решение принципиально важное: ни один хам-коллектор не сможет спрятаться за спину искусственного интел&nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Четырнадцатый арбитражный апелляционный суд признал законным решение службы судебных приставов о наказании банкиров, чьи роботы-коллекторы слишком назойливо звонили должнику. Решение принципиально важное: ни один хам-коллектор не сможет спрятаться за спину искусственного интеллекта. </p> <p> Как рассказали в объединенной пресс-службе судов Вологодской области, гражданин, являющийся должником по кредиту, пожаловался в управление Федеральной службы судебных приставов по Вологодской области на назойливые и частые звонки кредитора. </p> <p> Гражданин рассказал, что на его абонентский номер поступают ежедневные звонки и СМС-сообщения от банка с требованием о возврате задолженности. </p> <p> "Управление в ходе проверки установило превышение установленной законом частоты взаимодействия банка с должником, за что в мае 2023 года привлекло его к административной ответственности", - рассказывают в пресс-службе. </p> <p> Однако банкирам такой исход дела не понравился. Они пошли в суд. "Банк оспорил решение управления в суде, ссылаясь на то, что робот-коллектор только осуществлял набор номера, а непосредственного разговора с заемщиком по телефону не было", - рассказывают в суде. </p> <p> Иными словами, мол, тревожить частыми звонками человека - не проблема. Такова была логика банкиров. Ведь человек даже не выслушивал до конца слова металлического голоса, а обрывал связь. Суд, выслушав доводы, ответил категоричное "нет": банкиры не правы. Они обязаны держать своих роботов в узде. </p> <p> "Количество звонков должнику от робота-коллектора банка в ноябре и декабре 2022 года доходило до 8 в неделю и 18 в месяц при установленном законодательством предельном количестве не более 2 раз в неделю и 8 раз в месяц, - рассказывают в пресс-службе. - Несмотря на то, что телефонные разговоры фактически не состоялись, поскольку абонент "бросал трубку", сам факт наличия попытки набора номера и соединение с клиентом свидетельствуют о нарушении банком закона". </p> Банкиры пытались доказать, что раз человек сбрасывал трубку, то и правил они не нарушали, звоня слишком часто. Суд их доводы отверг <p> Суд подтвердил правоту службы судебных приставов. Крайне важный правовой урок: на роботов-коллекторов распространяются те же правила, что и на обычных коллекторов. Нельзя звонить чаще, чем положено. Нельзя тревожить человека по ночам. И т.п. Потому банкиры должны заплатить 60 тысяч рублей штрафа. </p> <p> Напомним, что минувшим летом главой государства был подписан закон, который ввел понятие "автоматизированный интеллектуальный агент", используемый для взыскания долга. Граждан должны предупреждать, что с ним разговаривают роботы. И роботы обязаны быть неназойливыми. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656512' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656512" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656512" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656512,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656512" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656512").style.display = ""; document.getElementById("megasoftnews-comment-submit-656512").style.display = "block"; document.getElementById("megasoftnews-comment-body-656512").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656512" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656512/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656512" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656512/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656512" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656512');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656512" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656512" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656512" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656512" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656512" id="megasoftnews-comment-id-656512" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1698060060,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656512, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656374" class="news_item news_item_standart" data-news-feed-item="656374">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="20.10.2023 16:11:58" datetitle="Fri, 20 Oct 2023 16:11:58 +0300" megasoft-timestamp="1697807518" class="timestamp">20.10.2023 16:11</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="20.10.2023 16:11:00" datetitle="Fri, 20 Oct 2023 16:11:00 +0300" megasoft-timestamp="1697807460" class="timestamp">20.10.2023 16:11</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656374" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656374" title="Курс евро опустился ниже 102 рублей впервые с 28 сентября" target="_blank">Курс евро опустился ниже 102 рублей впервые с 28 сентября</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Курс евро опустился ниже 102 рублей впервые с 28 сентября, свидетельствуют данные Мосбиржи. </p> <p> В ходе торгов европейская валюта подешевела на 93 копейки, до 101,83 рубля. </p> <p> Курс доллара по состоянию на 10:13 мск снизился на 56 копеек, до 96,47 рубля. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Курс евро опустился ниже 102 рублей впервые с 28 сентября, свидетельствуют данные Мосбиржи. </p> <p> В ходе торгов европейская валюта подешевела на 93 копейки, до 101,83 рубля. </p> <p> Курс доллара по состоянию на 10:13 мск снизился на 56 копеек, до 96,47 рубля. </p> <p> Ранее глава Минэкономразвития Максим Решетников <!--noindex--><a href="javascript:void(0)" onclick="open_pr_link('https://rg.ru/2023/10/17/stremitsia-k-ravnovesiiu.html')" target="_blank" rel="noopener noreferrer">заявил</a><!--/noindex-->, что ожидает стабилизации курса рубля на уровне 90-92 рубля за доллар в 2024-2026 годах. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656374' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656374" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656374" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656374,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656374" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656374").style.display = ""; document.getElementById("megasoftnews-comment-submit-656374").style.display = "block"; document.getElementById("megasoftnews-comment-body-656374").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656374" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656374/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656374" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656374/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656374" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656374');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656374" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656374" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656374" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656374" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656374" id="megasoftnews-comment-id-656374" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697807460,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656374, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656373" class="news_item news_item_standart" data-news-feed-item="656373">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="20.10.2023 16:09:32" datetitle="Fri, 20 Oct 2023 16:09:32 +0300" megasoft-timestamp="1697807372" class="timestamp">20.10.2023 16:09</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="20.10.2023 16:09:00" datetitle="Fri, 20 Oct 2023 16:09:00 +0300" megasoft-timestamp="1697807340" class="timestamp">20.10.2023 16:09</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656373" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656373" title="Доллар опустился ниже 96 рублей впервые с 25 сентября" target="_blank">Доллар опустился ниже 96 рублей впервые с 25 сентября</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Курс доллара опустился ниже 96 рублей впервые с 25 сентября. Об этом свидетельствуют данные Мосбиржи. </p> <p> В ходе торгов американская валюта подешевела на 1,3%, до 95,79 рубля. К 11:40 доллар замедлил снижение и торговался на отметке 96,04 рубля. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Курс доллара опустился ниже 96 рублей впервые с 25 сентября. Об этом свидетельствуют данные Мосбиржи. </p> <p> В ходе торгов американская валюта подешевела на 1,3%, до 95,79 рубля. К 11:40 доллар замедлил снижение и торговался на отметке 96,04 рубля. </p> <p> Курс евро снизился на 1,07%, до 101,69 рубля, курс юаня - на 1,13%, до 13,075 рубля. </p> <p> Ранее глава Минэкономразвития Максим Решетников заявил, что ожидает стабилизации курса рубля на уровне 90-92 рубля за доллар в 2024-2026 годах. </p> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656373' style="display:inline-block;">
+
+                    <ul id ="item_actions_megasoftnews_news_656373" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656373" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656373,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656373" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656373").style.display = ""; document.getElementById("megasoftnews-comment-submit-656373").style.display = "block"; document.getElementById("megasoftnews-comment-body-656373").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656373" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656373/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656373" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656373/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656373" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656373');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656373" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656373" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656373" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656373" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656373" id="megasoftnews-comment-id-656373" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697807340,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656373, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656228" class="news_item news_item_standart" data-news-feed-item="656228">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="19.10.2023 16:20:32" datetitle="Thu, 19 Oct 2023 16:20:32 +0300" megasoft-timestamp="1697721632" class="timestamp">19.10.2023 16:20</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="19.10.2023 16:21:00" datetitle="Thu, 19 Oct 2023 16:21:00 +0300" megasoft-timestamp="1697721660" class="timestamp">19.10.2023 16:21</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656228" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656228" title="Эксперты: Компании отказываются нанимать работников с долгами" target="_blank">Эксперты: Компании отказываются нанимать работников с долгами</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> За последние три года число людей c просроченными кредитами удвоилось и составляет более 14 млн человек. Для работодателей они не являются желательными сотрудниками. Поэтому соискатели с долгами встречают препятствия при поиске работы, а также оказываются на грани увольнения. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> За последние три года число людей c просроченными кредитами удвоилось и составляет более 14 млн человек. Для работодателей они не являются желательными сотрудниками. Поэтому соискатели с долгами встречают препятствия при поиске работы, а также оказываются на грани увольнения. </p> <p> Чаще всего с проблемами сталкиваются именно соискатели, говорит профессор Финансового университета при правительстве РФ Александр Сафонов. "Работодатели при приеме сотрудников на определенную работу проверяют их через различные базы данных, в том числе бюро кредитных историй", - говорит он. В основном речь идет о крупных компаниях, работающих в сфере производства, финансов, логистики, строительства, торговли. Чаще всего кредитные истории и наличие других долгов проверяют у сотрудников, чья работа напрямую связана с деньгами: финансовых директоров, продавцов, кладовщиков, бухгалтеров, кассиров и специалистов по закупкам, отметили в Работа.ру. </p> <p> Получить доступ к кредитной истории можно только с согласия кандидата. И отказ от этого практически всегда означает отказ в трудоустройстве. В то же время обширный перечень информации можно получить, не спрашивая согласия кандидата: в каких судебных делах он участвовал и в каком количестве - в системе ГАС РФ "Правосудие", информацию о долгах и исполнительных производствах - на сайте Федеральной службы судебных приставов; сведения о банкротстве - в Едином федеральном реестре сведений о банкротстве. Долги могут быть разные: алименты, просроченные кредиты, возмещение ущерба третьим лицам. Но работодатели не вдаются в детали. </p> Огромное количество информации о долгах можно получить, не спрашивая разрешения сотрудника <p> Законных оснований для отказа в приеме на работу из-за наличия долгов нет. Роструд разъяснил эту ситуацию на портале "Онлайнинспекция.рф", сославшись на статью 64 Трудового кодекса. В ней сказано, что необоснованный отказ в заключении трудового договора запрещен. Работодатель вправе сделать это только по причинам, связанным с деловыми качествами кандидата. Если работник считает, что ему необоснованно отказали в трудоустройстве, он может попросить письменный отказ и обратиться в трудовую инспекцию. </p> <p> Сотрудники с долгами сталкиваются не только с отказом в приеме на работу, но и увольнениями, говорит Сафонов. Наличие долга основанием для увольнения быть не может, в ход идет принуждение к увольнению путем снижения зарплаты и изменения обязанностей. </p> <p> Есть три основных аргумента, почему людей с долгами не хотят брать на работу, говорит Сафонов. Боязнь, что сотрудник воспользуется ресурсами компании, чтобы закрыть свои долги. Боязнь того, что с исполнительными листами придется разбираться бухгалтерии, которая работает не совсем "чисто". Третий аргумент - если человек не исполняет закон, то он будет неисполнительным и на работе. </p> <p> Работодателям не нравится решать проблемы сотрудников с долгами. Одно дело - знать об их наличии, другое - получать исполнительные листы и перечислять часть зарплаты сотрудника в счет покрытия долга. Не нравится руководителям общаться с коллекторами. Меньше всего на карьеру влияют алименты, к их уплате с зарплат работников компании привыкли. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656228' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656228" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656228" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656228,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656228" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656228").style.display = ""; document.getElementById("megasoftnews-comment-submit-656228").style.display = "block"; document.getElementById("megasoftnews-comment-body-656228").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656228" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656228/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656228" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656228/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656228" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656228');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656228" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656228" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656228" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656228" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656228" id="megasoftnews-comment-id-656228" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697721660,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656228, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656226" class="news_item news_item_standart" data-news-feed-item="656226">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="19.10.2023 16:15:21" datetitle="Thu, 19 Oct 2023 16:15:21 +0300" megasoft-timestamp="1697721321" class="timestamp">19.10.2023 16:15</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="19.10.2023 16:16:00" datetitle="Thu, 19 Oct 2023 16:16:00 +0300" megasoft-timestamp="1697721360" class="timestamp">19.10.2023 16:16</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656226" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656226" title="На тезок должников перестали вешать чужие долги" target="_blank">На тезок должников перестали вешать чужие долги</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> В Федеральной службе судебных приставов сообщили о резком сокращении числа жалоб от граждан-двойников, кому приписали чужие долги. Это не люди смирились, а система стала их реже путать. &nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> В Федеральной службе судебных приставов сообщили о резком сокращении числа жалоб от граждан-двойников, кому приписали чужие долги. Это не люди смирились, а система стала их реже путать. </p> <p> "На 90 процентов уменьшилось количество поступивших обращений в Федеральную службу судебных приставов от граждан, ошибочно идентифицированных должниками", сообщили в ведомстве. </p> <p> Напомним, одно время это стало настоящим стихийным бедствием: с людей списывали деньги по чужим долгам. Проблема была в том, что инициалы граждан совпадали с данными должников. Неприятно было узнать о том, что где-то ходит твой полный тезка, который кругом всем должен. Потому что платить приходилось тебе. Конечно, потом деньги возвращали, но для этого подчас приходилось побегать. </p> На 90 процентов уменьшилось количество поступивших обращений от двойников <p> Как рассказывают в ведомстве, положительные тенденции стали возможными благодаря закону, который вступил в силу 20 июня 2022 года. "Указанный закон решил проблему однозначной идентификации должников в рамках исполнительного производства, - поясняют приставы. - В соответствии с законом в заявлении о выдаче судебного приказа, судебном приказе, исковом заявлении и исполнительном документе в обязательном порядке указывается один из дополнительных идентификаторов должников: СНИЛС, ИНН, ОГРН, серия и номер документа, удостоверяющего личность, серия и номер водительского удостоверения". </p> <p> Тем не менее случаи ошибочной идентификации граждан как должников все еще фиксируются. Это касается исполнительных производств по старым решениям, вынесенным до вступления в силу указанного закона и в которых отсутствуют идентификаторы граждан-должников. Несчастные тезки могут решить проблему с помощью сервиса "Интернет-приемная" официального сайта Федеральной службы судебных приставов, выбрав тему "Я двойник!". Другой эффективный способ решения вопроса - обращение в чат-бот в официальном аккаунте ФССП в "ВКонтакте". </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656226' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656226" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656226" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656226,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656226" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656226").style.display = ""; document.getElementById("megasoftnews-comment-submit-656226").style.display = "block"; document.getElementById("megasoftnews-comment-body-656226").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656226" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656226/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656226" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656226/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656226" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656226');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656226" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656226" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656226" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656226" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656226" id="megasoftnews-comment-id-656226" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697721360,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656226, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656037" class="news_item news_item_standart" data-news-feed-item="656037">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="18.10.2023 11:04:59" datetitle="Wed, 18 Oct 2023 11:04:59 +0300" megasoft-timestamp="1697616299" class="timestamp">18.10.2023 11:04</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="18.10.2023 13:53:00" datetitle="Wed, 18 Oct 2023 13:53:00 +0300" megasoft-timestamp="1697626380" class="timestamp">18.10.2023 13:53</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656037" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656037" title="Заемщикам расскажут о возможности страховаться, где угодно" target="_blank">Заемщикам расскажут о возможности страховаться, где угодно</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> При оформлении кредита заемщик вправе купить страховку в любой компании, которая отвечает требованиям банка. Кредитор обязан проинформировать клиента о такой возможности и не может навязывать услуги конкретной организации. Об этом говорится в совместном письме Банка России и&nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> При оформлении кредита заемщик вправе купить страховку в любой компании, которая отвечает требованиям банка. Кредитор обязан проинформировать клиента о такой возможности и не может навязывать услуги конкретной организации. Об этом говорится в совместном письме Банка России и Федеральной антимонопольной службы (ФАС). </p> <p> "Требования к страховке банк должен разместить на своем сайте и в местах обслуживания клиентов. Кредитор должен принять полис страховщика при соблюдении двух условий: если его кредитный рейтинг не ниже уровня "А-" и договор страхования соответствует условиям банка. После получения полиса у банка есть семь рабочих дней на то, чтобы сообщить заемщику о своем решении - принимает он его или нет. Это позволит не допустить затягивания сроков рассмотрения документов", - говорится в сообщении Банка России. </p> <p> Как отмечают в ФАС, при продвижении финансовых продуктов участники финансового рынка нередко пользуются неинформированностью граждан и навязывают страховые продукты своих страховщиков по завышенной цене. </p> <p> Ранее глава Банка России Эльвира Набиуллина анонсировала ужесточение штрафных мер для банков в случае обмана или ввода потребителей финансовых услуг в заблуждение. </p> <p> "Весной мы выявили ряд нарушений по продаже банками страховых и инвестиционных продуктов, особенно в крупных банках. И мы повторим осенью эти проверки, и если найдем повторное нарушение, то в этот раз уже применим жесткие меры, которые нам дал законодатель", - пообещала Набиуллина. </p> <p> Так, у ЦБ существует законодательное право запрещать банкам продажу отдельных финансовых продуктов клиентам и, более того, потребовать у банков "обратного выкупа" таких продуктов, если их продали недобросовестным образом. </p> <p> Кроме того, в Банке России зафиксировали и рост жалоб на навязывание банками услуг - в том числе в онлайн-кредитовании (в частности, продажа скрытых страховок). </p> <p> Например, заемщик не осознает, что, подтверждая оформление кредита через СМС, вместе с ним получает еще и огромную сумму страховки. Это прямое нарушение закона. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656037' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656037" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656037" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656037,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656037" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656037").style.display = ""; document.getElementById("megasoftnews-comment-submit-656037").style.display = "block"; document.getElementById("megasoftnews-comment-body-656037").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656037" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656037/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656037" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656037/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656037" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656037');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656037" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656037" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656037" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656037" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656037" id="megasoftnews-comment-id-656037" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697626380,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656037, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script>                <li id="news-item-656036" class="news_item news_item_standart" data-news-feed-item="656036">
+                  
+                                    <table class="news_item_header">
+                 <tr>
+                  <td class="object_avatar" rowspan="4"><img src="https://bizon.ru/public/group/a1/84/07/77625_f36d.png?c=1fc5" alt="PR в промышленности / promPR Финансовый рынок" is_mini="1" class="thumb_icon item_photo_group  thumb_icon" /></td>
+                 </tr>
+                    <tr>
+                                        <td class="megasoft_reposted_link"><span class="news_feed_item_date">Репост</span>  <span class="news_feed_item_date"><span exact="1" title="18.10.2023 11:03:33" datetitle="Wed, 18 Oct 2023 11:03:33 +0300" megasoft-timestamp="1697616213" class="timestamp">18.10.2023 11:03</span></span>
+                                        </td>
+                                    </tr>
+                <tr>
+                    <td>
+                                                <b><a  href="https://bizon.ru/prompr-financial" title="PR в промышленности / promPR Финансовый рынок" target="_blank">PR в промышленности / promPR Финансовый рынок</a></b>
+                         <span class='news_feed_separator'>•</span> <a  href="https://bizon.ru/dolgionline" target="_blank">Долги Онлайн</a>                    </td>
+                </tr>
+                <tr>
+                    <td><span class="news_feed_item_date"><span exact="1" title="18.10.2023 12:53:00" datetitle="Wed, 18 Oct 2023 12:53:00 +0300" megasoft-timestamp="1697622780" class="timestamp">18.10.2023 12:53</span></span>
+                                             <span class='news_feed_separator'>•</span>                         <span class="news_feed_highlighted">Источник: </span>
+                                                    <A HREF="https://rg.ru/" target="_blank" class="news_feed_highlighted_link">rg.ru</A>
+                                                                </td>
+                </tr>
+            </table>
+
+            <div class='news_feed_item_body'>
+                                <table id="megasoftnews_news_656036" class ="news_feed_content">
+                    <tr>
+                                                <td class="news_title">
+                            <a  href="https://www.bills.ru/news/?bid=656036" title="Минюст предлагает ввести новые штрафы для коллекторов" target="_blank">Минюст предлагает ввести новые штрафы для коллекторов</a>                        </td>
+                    </tr>
+                    <tr>
+                        <!--#ssl-no-replace-->
+                        <td class="news_content">
+                            
+
+
+<div class="view_more view_more_first"><p> Министерство юстиции РФ вынесло на общественное обсуждение проект поправок в КоАП, предлагающий, по сути, ужесточить систему наказаний коллекторов. Их будут штрафовать не только за приставания (образно говоря) к гражданам, но и за несоблюдение базовых требований. Например,&nbsp;&nbsp;<a class="view_more_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_first:first').parent().find('.view_more_second').css('display','block');jQuery(this).parents('.view_more_first:first').css('display','none');">далее</a></p></div>
+
+
+<div class="view_more view_more_second" style="display:none;"><p> Министерство юстиции РФ вынесло на общественное обсуждение проект поправок в КоАП, предлагающий, по сути, ужесточить систему наказаний коллекторов. Их будут штрафовать не только за приставания (образно говоря) к гражданам, но и за несоблюдение базовых требований. Например, отсутствие аппаратуры для записи разговоров. </p> <p> Сегодня коллектора могут наказать, допустим, за слишком частые звонки должнику. Если же коллектор начнет угрожать насилием, то может попасть и под УК. Соответствующий закон недавно был принят. </p> <p> Теперь же минюст предлагает ввести более строгие подходы: приставы смогут штрафовать не только коллекторов-обидчиков, но и просто недисциплинированных коллекторов, еще не успевших кому-то испортить нервы. </p> Теперь приставы смогут штрафовать коллекторов, например, если те не представились должнику при звонке. Также штраф получит коллекторское агентство, не записывающее разговоры с должником <p> По закону коллекторы обязаны записывать телефонные разговоры с должником. Нет таких записей? Будет штраф. Также по закону коллектор в начале разговора должен представиться: сообщить имя или свой индивидуальный идентификационный код. Не представился? Опять будет штраф. И так далее. </p> <p> "Подготовленный законопроект направлен на совершенствование механизмов защиты граждан от недобросовестных действий при возврате просроченной задолженности, - подчеркнул председатель правления Ассоциации юристов России Владимир Груздев. - В частности, вводится административная ответственность за неисполнение решения об ограничении использования одного или нескольких способов взаимодействия с должником. Правом вынесения такого решения наделены судебные приставы. Неисполнение ограничения повлечет наложение административного штрафа на должностных лиц в размере от пятидесяти тысяч до ста тысяч рублей или дисквалификацию на срок до одного года. Юридическим лицам будет грозить штраф от двухсот тысяч до трехсот тысяч рублей". </p> <p> Напомним, что по закону приставы вправе, условно говоря, выключать телефоны коллекторов и банковских сотрудников, работающих с должниками, на срок до 60 суток. То есть вводить "ограничения использования одного или нескольких способов взаимодействия с должником". Не представляетесь при звонке? Вот вам блокировка на два месяца. </p> <p> Также законопроектом предлагается установить административную ответственность за нарушение кредитором или представителем кредитора общих правил совершения действий, направленных на возврат просроченной задолженности физических лиц. </p> <p> Кроме того, устанавливается административная ответственность за неисполнение профессиональной коллекторской, кредитной или микрофинансовой организацией требований и обязанностей, установленных для таких организаций действующим законодательством Российской Федерации. </p> <p> "Таким образом расширяется применение административного наказания в отношении коллекторов. Принятие законопроекта создаст условия, при которых будет достигаться цель административного наказания - предупреждение совершения новых правонарушений как самим правонарушителем, так и другими лицами", - резюмировал Владимир Груздев. </p><div><a class="view_less_link" href="javascript:void(0);" onclick="jQuery(this).parents('.view_more_second:first').parent().find('.view_more_first').css('display','block');jQuery(this).parents('.view_more_second:first').css('display','none');">свернуть</a></div> &nbsp;</div>                        </td>
+                        <!--#ssl-no-replace-end-->
+                    </tr>
+                </table>
+             
+                   
+            <hr class="bizNewsSep" />
+
+    <div id='comment-likes-news-item-656036' style="display:inline-block;">
+
+                <style type="text/css">
+                .item_actions_menu > li+li:before {
+                    content: " • ";
+                    padding-right: 1px;
+                }
+            </style>
+            <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    jQuery('body').click(en4.core.actionmenu.close_all);
+                });
+            </script>
+                            <ul id ="item_actions_megasoftnews_news_656036" class="item_actions_menu megasoftnews_news_actions_menu">
+                                        <li id="item_main_action_like_megasoftnews_news_656036" class="item_main_action item_main_action_like">
+                    <a  href="javascript:void(0);" onclick='javascript:megasoftnews.news.like(656036,0,"");'>Мне нравится</a>                </li>
+                            <li id="item_main_action_comment_megasoftnews_news_656036" class="item_main_action item_main_action_comment">
+                    <a  href="javascript:void(0);" onclick='document.getElementById("megasoftnews-comment-form-656036").style.display = ""; document.getElementById("megasoftnews-comment-submit-656036").style.display = "block"; document.getElementById("megasoftnews-comment-body-656036").focus();'>Комментарий</a>                </li>
+                            <li id="item_main_action_repost_megasoftnews_news_656036" class="item_main_action item_main_action_repost">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656036/repost/1/format/smoothbox" class="smoothbox" title="Репост">Репост</a>                </li>
+                            <li id="item_main_action_share_megasoftnews_news_656036" class="item_main_action item_main_action_share">
+                    <a  href="https://bizon.ru/activity/index/share/type/megasoftnews_news/id/656036/format/smoothbox" class="smoothbox" title="Поделиться">Поделиться</a>                </li>
+                                        <li id="item_popup_actions_megasoftnews_news_656036" class="item_popup_actions" onclick="en4.core.actionmenu.open(event, 'megasoftnews_news_656036');">
+                    <A HREF="javascript:void(0);" >Другие действия </A>
+                    <div class="item_popup_options" style="display:none" id=''>
+                        <ul>
+                                                    <li id="item_popup_action_ajaxcontent_megasoftnews_news_656036" class="item_popup_action item_popup_action_ajaxcontent" onclick="en4.core.actionmenu.close_all({});">
+                                <IMG src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" width=16 height=16>                            </li>
+                                                </ul>
+                    </div>
+                </li>
+                    </ul>
+                
+    
+        
+                <div class='comments'>
+            <ul>
+                                            </ul>
+            <form id="megasoftnews-comment-form-656036" enctype="application/x-www-form-urlencoded" class="megasoftnews-comment-form" action="https://bizon.ru/news/comment/module/megasoftnews" style="display: none;" method="post">
+
+<textarea name="body" id="megasoftnews-comment-body-656036" cols="45" rows="1"></textarea>
+
+<button name="submit" id="megasoftnews-comment-submit-656036" type="submit">Комментировать</button>
+
+<input type="hidden" name="news_id" value="656036" id="megasoftnews-comment-id-656036" />
+
+<input type="hidden" name="return_url" value="https://bizon.ru/widget/index/mod/megasoftnews/name/news-feed/layout/json-simple/scheme/bills/subject/group_6397" id="return_url" />
+
+<input type="hidden" name="parent_id" value="0" id="parent_id" /></form>        </div>
+                </div>
+
+    
+<script type="text/javascript" class="executeAlsoAfterUpdate">
+    en4.core.runonce.add(function() {
+                    megasoftnews.news.isSingleEntityActionsSection = false;
+                    
+                    megasoftnews.news.isShortCommentLikeSection = false;
+            // Enable links in comments
+            $$('.comments_body').enableLinks();
+                megasoftnews.news.setupNewsCommentsLikes({"futuredDate":1697622780,"isCommentsClosed":0,"likers":[],"comments":[],"widgetIndificationQuoted":"false","widgetIndification":""}, 656036, 1698248965);
+    });
+
+    en4.core.runonce.add(function () {
+        en4.core.setSmilesInCommentsAndActions();
+    });
+</script></ul>
+</div>
+
+<div class="news_feed_viewmore" id="news_feed_viewmore" style="display: none;">
+    <div class="ajax_next_layout">
+        <div id="news_feed_viewmore_link" class="vertical_paginator_button">
+            &nbsp;
+        </div>
+    </div>
+</div>
+
+<div  class="news_feed_viewmore" id="news_feed_loading" style="display: none;text-align: center;">
+    <img src="https://bizon.ru/application/modules/Core/externals/images/roll.gif" alt="Загрузка">
+</div>
+
+<script>
+    </script></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+            <td></td>
+        </tr>
+    </table>
+    
+    <table cellpadding="0" cellspacing="0" style="width:755px; border:0px;">
+		<tr>
+			<td style="width:52px;background-color:#bcbcbc;" valign="top">
+			</td>
+			<td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+			
+			
+			
+			
+			
+			<td style="width:116px;" valign="bottom">
+													<a class="partners" href="https://www.dolgionline.ru/" title="https://www.dolgionline.ru/">Долги Онлайн: долговая площадка, продажа ипотечных и кредитных договоров, материальные активы, недвижимость, 
+					  векселя, акции, облигации</a><br><br>
+									
+	
+<div class="social_buttons">
+	<div class="social_buttons_probel">
+		<a href="https://twitter.com/bills_ru " class="" target="_blank">
+			<img border="0" alt="Twitter" src="/images/social_buttons/twitter.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://twitter.com/bills_ru " class=" hover_underline" target="_blank">Twitter</a>
+	</div>
+</div>
+
+<div class="social_buttons">	
+	<div class="social_buttons_probel">
+		<a href="https://www.facebook.com/bills.ru " class="" target="_blank">
+			<img border="0" alt="Facebook" src="/images/social_buttons/facebook.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://www.facebook.com/bills.ru" class=" hover_underline" target="_blank">Facebook</a>
+	</div>
+</div>
+
+<div class="social_buttons">
+	<div class="social_buttons_probel">
+		<a href="https://plus.google.com/112376660696230649548/about" class="" target="_blank">
+			<img border="0" alt="Google+" src="/images/social_buttons/google.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://plus.google.com/112376660696230649548/about" class=" hover_underline" target="_blank">Google+</a>
+	</div>
+</div>
+
+<div class="social_buttons">	
+	<div class="social_buttons_probel">
+		<a href="https://vk.com/bills_ru " class="" target="_blank">
+			<img border="0" alt="Вконтакте" src="/images/social_buttons/vkontakte.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://vk.com/bills_ru " class=" hover_underline" target="_blank">Вконтакте</a>
+	</div>
+</div>	
+
+<div class="social_buttons">	
+	<div class="social_buttons_probel">
+		<a href="https://odnoklassniki.ru/group/51791744991301" class="" target="_blank">
+			<img border="0" alt="РћРґРЅРѕРєР»Р°СЃСЃРЅРёРєРё" src="/images/social_buttons/odnoklassniki.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://odnoklassniki.ru/group/51791744991301" class=" hover_underline" target="_blank">Одноклассники</a>
+	</div>
+</div>
+
+<div class="social_buttons">
+	<div class="social_buttons_probel">
+		<a href="https://bizon.ru/bills" class="">
+			<img border="0" alt="Бизнес Онлайн" src="/images/social_buttons/bizon.png">
+		</a>
+	</div>
+	<div class="social_button_txt">
+		<a href="https://bizon.ru/bills" class=" hover_underline">Бизнес Онлайн</a>
+	</div>
+</div>					<a href="https://www.megasoft.ru"><img src="/images/common/megasoft.jpg" alt="" style="border:0px;"></a>
+			
+			</td>
+			<td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+							<td style="width:575px; vertical-align:bottom;text-align:center;">
+					
+<div style="float:left; width:100%; text-align:center;margin-top:100px;margin-bottom:10px;font-size:12px;">
+	<!-- Яндекс.Директ -->
+	<script type="text/javascript"><!--
+	yandex_partner_id = 129009;
+	yandex_site_bg_color = 'FFFFFF';
+	yandex_site_charset = 'UTF-8';
+	yandex_ad_format = 'direct';
+	yandex_font_size =1;
+	yandex_font_family = 'arial';
+	yandex_direct_type = 'horizontal';
+	yandex_direct_border_type = 'ad';
+	yandex_direct_limit = 2;
+	yandex_direct_header_bg_color = 'DEDBDB';
+	yandex_direct_bg_color = 'F7F5F5';
+	yandex_direct_border_color = 'DEDBDB';
+	yandex_direct_title_color = '000000';
+	yandex_direct_url_color = '000000';
+	yandex_direct_all_color = '000000';
+	yandex_direct_text_color = '000000';
+	yandex_direct_hover_color = '0066FF';
+	document.write('<sc'+'ript type="text/javascript" src="https://an.yandex.ru/system/context.js"></sc'+'ript>');
+	//--></script>
+
+</div>
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='https://www.liveinternet.ru/click' "+
+"target=_blank><img src='https://counter.yadro.ru/hit?t14.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31' style='display:none'><\/a>")
+//--></script><!--/LiveInternet-->
+
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "315656", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "topmailru-code");
+</script><noscript><div>
+<img src="//top-fwz1.mail.ru/counter?id=315656;js=na" style="border:0;position:absolute;left:-9999px;" alt="" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+	
+				</td>
+			
+						<td valign="top" style="color:white; width:3px; background-image:url('/images/common/point2.gif');">.</td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0" style="width:753px;">
+	<tr>
+		<td style="background-color:white; background-image:url('/images/common/point2.gif'); height:3px;"></td>
+	</tr>
+	<tr>
+		<td style="text-align:center;"> 
+		<!--Нижний баннер 468x60 -->
+					<script language='JavaScript' type='text/javascript' src='https://banner.zol.ru/adx.js'></script>
+					<script language='JavaScript' type='text/javascript'>
+					<!--
+					   if (!document.phpAds_used) document.phpAds_used = ',';
+					   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+					   
+					   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+					   document.write ("https://banner.zol.ru/adjs.php?n=" + phpAds_random);
+					   document.write ("&amp;what=zone:341");
+					   document.write ("&amp;exclude=" + document.phpAds_used);
+					   if (document.referrer)
+					      document.write ("&amp;referer=" + escape(document.referrer));
+					   document.write ("'><" + "/script>");
+					//-->
+					</script><noscript><a href='https://banner.zol.ru/adclick.php?n=a63df168' target='_blank'>
+					<img src='https://banner.zol.ru/adview.php?what=zone:341&amp;n=a63df168' border='0' alt=''></a></noscript>
+		</td>
+	</tr>
+</table>    </div>
+    </body>
+</html>

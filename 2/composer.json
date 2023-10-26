@@ -1,0 +1,6 @@
+{
+    "require": {
+        "imangazaliev/didom": "^2.0",
+        "sergeytsalkov/meekrodb": "^2.5"
+    }
+}
